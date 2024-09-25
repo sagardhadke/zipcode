@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:zipcode/Models/ZipModel.dart';
 import 'package:zipcode/Views/ZipCodeApi.dart';
+import 'package:zipcode/Views/zipCode.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyZipCodeApi()
+      home: MyZipCode()
     );
   }
 }
