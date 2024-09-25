@@ -10,6 +10,17 @@ class MyZipCodeApi extends StatefulWidget {
 class _MyZipCodeApiState extends State<MyZipCodeApi> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("ZipCode Info", style: TextStyle(color: Colors.white),),
+        backgroundColor: Colors.amber,
+      ),
+
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
