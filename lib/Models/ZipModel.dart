@@ -55,8 +55,4 @@ class Places {
         return _data;
     }
 
-    // List<Places> ? ofplace (List ofData){
-    //   return ofData<Places> jsonDecode(ofplace(e)).toList();
-    // } 
-
 }
